@@ -1,6 +1,4 @@
-body {
-  background-color: blue;
-}
+
 .grid-container {
   display: grid;
   grid-template-columns: 40% 1fr;
@@ -13,11 +11,11 @@ body {
   grid-row-start: 1;
   grid-row-end: 8;
   grid-row: 100%;
-  color: aqua;
+  background-image: url(../images/mynd.jpg);
+  height: auto;
 }
 
 .rightside {
-  color: blueviolet;
   grid-template-areas:
     "Name"
     "Projects"
@@ -25,6 +23,37 @@ body {
     "Knowledge"
     "Contact"
     "Footer";
-  
-  
+}
+
+.name {
+  height: 100px;
+  padding: 128px 16px;
+  h1 {
+    font-family: 'Poppins', sans-serif;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+}
+
+.projects {
+  height: 100px;
+}
+
+.about {
+  height: 100px;
+}
+
+.knowledge {
+  height: 100px;
+}
+
+.contact {
+  height: 100px;
+}
+
+.footer {
+  height: 100px;
 }
