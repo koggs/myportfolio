@@ -28,13 +28,8 @@
 .name {
   height: 100px;
   padding: 128px 16px;
-  h1 {
-    font-family: 'Poppins', sans-serif;
-  }
-  p {
-    font-family: 'Poppins', sans-serif;
-    
-  }
+  font-family: 'Poppins', sans-serif;
+  
 
 }
 

@@ -1,0 +1,26 @@
+- logo: images/css.png
+  link: 
+
+- logo: images/github.svg
+  link: https://github.com/
+
+- logo: images/javascript.png
+  link: https://www.javascript.com/
+
+- logo: images/cucumber.png
+  link: https://cucumber.io/
+
+- logo: images/rspec.png
+  link: http://rspec.info/
+
+- logo: images/ruby-logo.png
+  link: https://www.ruby-lang.org/en/
+
+- logo: images/rails.png
+link: https://www.rubyonrails.org/
+
+- logo: images/ionic.png
+  link: https://www.ionicframework.com/
+
+- logo: images/html.png
+  link:   
