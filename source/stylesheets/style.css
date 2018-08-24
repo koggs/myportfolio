@@ -1,0 +1,30 @@
+body {
+  background-color: blue;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  
+   
+}
+
+.leftside {
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 8;
+  grid-row: 100%;
+  color: aqua;
+}
+
+.rightside {
+  color: blueviolet;
+  grid-template-areas:
+    "Name"
+    "Projects"
+    "About"
+    "Knowledge"
+    "Contact"
+    "Footer";
+  
+  
+}
