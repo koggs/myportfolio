@@ -1,11 +1,12 @@
+---
 - logo: images/css.png
-  link: 
+  link: https://developer.mozilla.org/en-US/docs/Web/CSS
 
 - logo: images/github.svg
   link: https://github.com/
 
 - logo: images/javascript.png
-  link: https://www.javascript.com/
+  link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 - logo: images/cucumber.png
   link: https://cucumber.io/
@@ -17,10 +18,10 @@
   link: https://www.ruby-lang.org/en/
 
 - logo: images/rails.png
-link: https://www.rubyonrails.org/
+  link: https://www.rubyonrails.org/
 
 - logo: images/ionic.png
   link: https://www.ionicframework.com/
 
 - logo: images/html.png
-  link:   
+  link: https://developer.mozilla.org/en-US/docs/Web/HTML

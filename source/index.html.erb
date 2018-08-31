@@ -2,36 +2,36 @@
 title: Agnes Konradsdottir
 ---
 
-<!DOCTYPE html>
-<html>
 
-
-<body>
   <div class="grid-container">
     <div class="leftside"></div>
-    <div class="rightside"></div>
+    <div class="rightside">
         <div class="name">
           <h1>Agnes Konradsdottir</h1>
           <p>junior web developer</p>
-         
+        
         </div>
         
         <div class="projects">
-        <%= render "projects" %>
+          <%= partial 'partials/projects' %>
         </div>
         
-        <div class="about">About Me</div>
-        <div class="skills">My Skills</div>
-        <div class="contact">Contact Me</div>
-        <div class="footer">Footer
-         
-
+        <div class="about">
+          <%= partial 'partials/about' %>
         </div>
+        <div class="skills">
+          <%= partial 'partials/skills' %>
+        </div>
+        <div class="contact">
+          <%= partial 'partials/contact' %>
+        </div>
+        <div class="footer">
+          <%= partial 'partials/footer' %>
+        </div>
+
     </div>
     
 
 
   </div>  
-</body>
 
-</html>

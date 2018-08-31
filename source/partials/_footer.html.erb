@@ -1,4 +1,6 @@
-<!DOCTYPE html>
-<html>
 
-</html>
+<% data.skills_logos.each do |logo| %>
+  <a href="<%= logo[:link] %>">
+    <img src="<%= logo[:logo] %>">
+  </a>
+<% end %>

@@ -50,5 +50,12 @@
 }
 
 .footer {
-  height: 100px;
+ grid-area: footer;
+ height: 100px
+ }
+
+ .footer img {
+  height: 30px;
+  width: auto;
+  
 }
