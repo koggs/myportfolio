@@ -1,0 +1,24 @@
+- name: FoodHub
+  link: https://github.com/CraftAcademy/food_hub
+  image:
+  description: We started this as mid-course project, as our group got so invested in the project and had so many ideas for it that it developed in to a final project. 
+
+- name: NewsRoom
+  link: https://github.com/CraftAcademy/newsroom-april
+  image:
+  description:    
+    
+- name: BMI-Ionic
+  link: https://github.com/koggs/bmi_calculator_ionic
+  image:
+  description: During Ionic week we got the task of testing our BMI calculators.
+
+- name: ATM
+  link: https://github.com/koggs/ATM
+  image:
+  description: The first larger project in our prep-course was to build a virtual ATM which holds funds, can make withdrawals and deposits. we buildt this using Ruby and tested it with rspec.
+
+- name: Portfolio
+  link:
+  image:
+  description:
