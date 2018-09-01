@@ -1,8 +1,14 @@
 <h1>My Projects</h1>
 
-<div class="project-grid">
-  <div class="project-left"></div>
-  <div class="project-right"></div>
+<div class="project__cards">
+	<% data.projects.each do |project| %>
+    <div class="project__card">
+      <img src="<%= project[:image] %>">
+      <div class="project__card__image" style="background-image: url()">
+      </div>
+    </div>
+  <% end %>
+	
 
 
 </div>

@@ -34,14 +34,20 @@
 }
 
 .projects {
-  height: 100px;
+  height: auto;
   
 }
 
-.projects-grid {
+.projects__cards {
   display: grid;
   grid-template-columns: auto;
 }
+
+.project__card img {
+  height: 100px;
+  width: auto;
+}
+
 .about {
   height: 100px;
 }
