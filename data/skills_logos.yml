@@ -1,4 +1,10 @@
 ---
+- logo: images/CA-logo.png
+  link: https://www.craftacademy.se/
+
+- logo: images/slack.png
+  link: https://slack.com/features
+
 - logo: images/css.png
   link: https://developer.mozilla.org/en-US/docs/Web/CSS
 
@@ -13,6 +19,9 @@
 
 - logo: images/rspec.png
   link: http://rspec.info/
+
+- logo: images/jasmine.png
+  link: https://jasmine.github.io/
 
 - logo: images/ruby-logo.png
   link: https://www.ruby-lang.org/en/

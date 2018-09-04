@@ -56,33 +56,12 @@
   height: 100px;
 }
 
-.container{
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 20px;
-  width: 350px;
-  background-color: #F2F2F2;
-  margin: 50px;
-  margin-left: 60px;
-
+.contact {
+  width: 100px
 }
-input[type=text], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid;
-  border-radius: 2px;
-  box-sizing: border-box;
-  margin-top: 8px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit]{
-  padding: 12px 20px;
-  border: 1px;
-  border-radius: 4px;
-  background-color: #778899;
-
+.contact img {
+  height: 30px;
+  width: auto;
 }
 
 .footer {
@@ -95,3 +74,6 @@ input[type=submit]{
   width: auto;
   
 }
+ .footer a {
+   text-decoration: none
+ }
