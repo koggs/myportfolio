@@ -1,54 +1,85 @@
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+
+}
 
 .grid-container {
   display: grid;
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: auto auto;
   
    
 }
 
 .leftside {
+  margin: 0;
   grid-column: 1;
   grid-row-start: 1;
-  grid-row-end: 8;
+  grid-row-end: 2;
   grid-row: 100%;
-  background-image: url(../images/mynd.jpg);
-  height: auto;
+  background-image: url(../images/kjulli.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 40%;
+  position: fixed;
+  z-index: 0;
 }
 
 .rightside {
+  margin-left: auto;
+  display: grid;
+  overflow: auto;
   grid-template-areas:
-    "Name"
-    "Projects"
-    "About"
-    "Knowledge"
-    "Contact"
-    "Footer";
+    "name"
+    "projects"
+    "about"
+    "knowledge"
+    "contact"
+    "footer";
 }
 
 .name {
+  grid-area: name;
   height: 100px;
   padding: 128px 16px;
-  font-family: 'Poppins', sans-serif;
   
+  padding-bottom: 10px
 
 }
 
 .projects {
-  height: auto;
+  grid-area: projects;
+  
   
 }
 
-.projects__cards {
+.project__cards {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 3fr 5fr;
+  grid-template-rows: auto;
+   
+}
+.project__card {
+
+}
+
+#image1 {
+  height: 300px;
+}
+#image2 {
+  height: 150px;
 }
 
 .project__card img {
-  height: 100px;
-  width: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about {
+  grid-area: about;
   height: 100px;
 }
 
@@ -57,7 +88,10 @@
 }
 
 .contact {
-  width: 100px
+  grid-area: contact;
+  height: auto;
+  padding-bottom: 10px;
+
 }
 .contact img {
   height: 30px;
@@ -66,14 +100,17 @@
 
 .footer {
  grid-area: footer;
- height: 100px
+ height: 100px;
+ padding-bottom: 10px;
+ 
  }
 
  .footer img {
   height: 30px;
   width: auto;
-  
+
 }
  .footer a {
-   text-decoration: none
+   text-decoration: none;
+   
  }

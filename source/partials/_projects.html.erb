@@ -1,9 +1,9 @@
 <h1>My Projects</h1>
 
 <div class="project__cards">
-	<% data.projects.each do |project| %>
+	<% data.projects.each_with_index do |project, index| %>
     <div class="project__card">
-      <img src="<%= project[:image] %>">
+      <img src="<%= project[:image] %>" id="image<%= index + 1 %>">
       <div class="project__card__image" style="background-image: url()">
       </div>
     </div>

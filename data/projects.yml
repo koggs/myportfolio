@@ -1,10 +1,10 @@
 - name: FoodHub
-  link: https://github.com/CraftAcademy/food_hub
+  link: https://github.com/koggs/food_hub
   image: images/food-hub.png
   description: We started this as mid-course project, as our group got so invested in the project and had so many ideas for it that it developed in to a final project. 
 
 - name: NewsRoom
-  link: https://github.com/CraftAcademy/newsroom-april
+  link: https://github.com/koggs/newsroom-april
   image: images/newsroom.png
   description: In week eight we started a three week challenge which was to create a newsroom.   
     
