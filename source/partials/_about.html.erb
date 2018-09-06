@@ -1,1 +1,5 @@
 <h1>About Me</h1>
+  <% data.me.each do |me| %>
+    <%= me[:description] %>
+    
+  <% end %>
