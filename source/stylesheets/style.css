@@ -51,12 +51,14 @@ body {
 .project__cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px 225px;
+  grid-template-rows: auto;
   grid-template-areas:
     "one one two"
-    "one one four"
+    "one one two"
+    "three three two"
     "three three four"
-    "five five five";
+    "five five four"
+    "five five four";
 }
 
 .project__card {}
@@ -67,7 +69,6 @@ body {
 
 #card2 {
   grid-area: two;
-  background-size: 200px;
 }
 
 #card3 {
@@ -86,12 +87,8 @@ body {
   grid-area: six;
 }
 
-
 .project__card__image {
 
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .about {
@@ -128,39 +125,4 @@ body {
 
 .footer a {
   text-decoration: none;
-}
-
-.hover-image {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.hover-image::after {
-  background-color: alpha(white, 0.2)
-}
-
-.hover-title {
-  color: black;
-}
-
-.hover-caption {
-  top: 150px;
-  color: black;
-  padding: 10px 0;
-  z-index: -1;
-}
-
-.hover-caption:hover .hover-title {
-  left: 150px;
-  top: 25px;
-  line-height: 50px;
-}
-
-.hover-image {
-  top: 20px;
-  left: 20px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
 }

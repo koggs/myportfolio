@@ -8,9 +8,10 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "My Portfolio" %></title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <%= stylesheet_link_tag "hover" %>
     <%= stylesheet_link_tag "style" %>
     <%= javascript_include_tag "site" %>
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   </head>
   <body>
    

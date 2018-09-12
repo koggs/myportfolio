@@ -2,12 +2,28 @@
 
 <div class="project__cards">
 	<% data.projects.each_with_index do |project, index| %>
-    <div class="project__card" id="card<%= index + 1 %>">
-      <div class="project__card__image" style="background-image: url(<%= project[:image] %>)">
-      </div>
+    <div class="column" id="card<%= index + 1 %>">
+      <figure class="hover effect-13">
+        <div class="hover-image" style="background-image: url(<%= project[:image] %>)"></div>
+        <h2 class="hover-title"><%= project[:name] %></h2>
+        <figcaption class="hover-caption">
+            <p><%= project[:description] %></p>
+        </figcaption>
+      </figure>
     </div>
   <% end %>
 	
 
 
 </div>
+
+
+ <%# <div class="column">
+        <figure class="hover effect-13">
+          <div class="hover-image" style="background-image: url('src/img/image-07.jpg')" alt=""></div>
+          <h2 class="hover-title">effect-13</h2>
+          <figcaption class="hover-caption">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, eum dolore! Id animi, dolore ut sed vitae quasi laboriosam fugit nostrum doloribus. Earum, hic, ipsam! Commodi non veritatis ipsum reiciendis.</p>
+          </figcaption>
+        </figure>
+      </div> %>
