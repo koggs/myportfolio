@@ -3,10 +3,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-}
+} */
 
 .leftside {
   margin: 0;
@@ -25,7 +25,9 @@ body {
 }
 
 .rightside {
+  margin-top: 20px;
   margin-left: 400px;
+  text-align: center;
   display: grid;
   overflow: auto;
   grid-template-areas:
@@ -39,9 +41,6 @@ body {
 
 .name {
   grid-area: name;
-  /* height: 100px; */
-  /* padding: 128px 16px; */
-  /* padding-bottom: 10px */
 }
 
 .projects {
@@ -49,56 +48,19 @@ body {
 }
 
 .project__cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "one one two"
-    "one one two"
-    "three three two"
-    "three three four"
-    "five five four"
-    "five five four";
+  margin: auto;
+    width: 80%;
 }
-
-.project__card {}
-
-#card1 {
-  grid-area: one;
-}
-
-#card2 {
-  grid-area: two;
-}
-
-#card3 {
-  grid-area: three;
-}
-
-#card4 {
-  grid-area: four;
-}
-
-#card5 {
-  grid-area: five;
-}
-
-#card6 {
-  grid-area: six;
-}
-
-.project__card__image {
-
+.project__cards {
+ 
 }
 
 .about {
+  margin: 15px;
   grid-area: about;
   height: auto;
-  text-align: left;
-}
-
-.knowledge {
-  height: 100px;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .contact {
@@ -125,4 +87,14 @@ body {
 
 .footer a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+  .leftside {
+  display: none;
+  }
 }

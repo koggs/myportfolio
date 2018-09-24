@@ -7,9 +7,7 @@
  fullContainer,
  .hover-image,
  .hover-image:after,
- .hover >a,
- .hover.effect-7 .hover-caption,
- .hover.effect-7 .hover-icons {
+ .hover >a {
    position: absolute;
    top: 0;
    right: 0;
@@ -42,7 +40,7 @@
  .hover {
    position: relative;
    width: 100%;
-   height: 300px;
+   height: 200px;
    margin: 0;
    overflow: hidden;
    cursor: pointer;
@@ -55,6 +53,7 @@
    background-position: center;
    background-position: center;
    background-size: cover;
+   width: 100%;
  }
  .hover-image:after {
    content: '';
@@ -79,7 +78,7 @@
    padding: 20px;
    position: absolute;
    top: 70px;
-   left: 30px;
+   left: 200px;
    color: #fff;
    text-shadow: 2px 2px 4px rgba(24,47,50,0.2);
    z-index: 4;
@@ -118,22 +117,24 @@
    width: 100%;
    height: 100%;
    overflow: hidden;
+  
  }
  .hover.effect-13 .hover-image:after {
    background-color: rgba(255,255,255,0.2);
  }
  .hover.effect-13 .hover-title {
-   color: #182f32;
+   color: black;
+   font-weight: bold;
  }
  .hover.effect-13 .hover-caption {
-   top: 150px;
+   top: 50px;
    color: #182f32;
    padding: 10px 0;
    z-index: -1;
  }
  .hover.effect-13:hover .hover-title {
    left: 150px;
-   top: 25px;
+   top: -20px;
    line-height: 50px;
  }
  .hover.effect-13:hover .hover-image {
@@ -142,6 +143,7 @@
    width: 150px;
    height: 150px;
    border-radius: 50%;
+   
  }
  
  /*# sourceMappingURL=hover.css.map */

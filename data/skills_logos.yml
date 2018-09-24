@@ -34,3 +34,9 @@
 
 - logo: images/html.png
   link: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- logo: images/sass.png
+  link: https://sass-lang.com/
+
+- logo: images/haml.png
+  link: haml.info
