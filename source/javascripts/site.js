@@ -1,9 +1,12 @@
 // This is where it all goes :)
 
-function openNav() {
-  document.getElementById("menu").style.width = "250px";
-}
+document.addEventListener('DOMContentLoaded', () => {
 
-function closeNav() {
-  document.getElementById("menu").style.width = "0";
-}
+  const nav__icon = document.querySelector(".nav");
+  const ul = document.querySelector('.nav__items')
+
+  nav__icon.addEventListener('click', event => {
+    ul.classList.toggle('open');
+  })
+
+})
