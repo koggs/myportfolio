@@ -13,21 +13,19 @@ body {
   grid-column: 1;
   grid-row-start: 1;
   grid-row-end: 2;
-  /* grid-row: auto; */
   background-image: url(../images/agnes_bw.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 400px;
+  width: 40%;
   position: fixed;
   z-index: 0;
- 
 }
 
 .rightside {
   margin-top: 20px;
-  margin-left: 400px;
+  margin-left: 40%;
   text-align: center;
   display: grid;
   overflow: auto;
@@ -40,7 +38,7 @@ body {
     "footer";
 }
 
-.name {
+#name {
   grid-area: name;
 
 }
@@ -65,7 +63,7 @@ body {
 
 .project__cards {
   margin: auto;
-    width: 70%;
+  width: 70%;
 }
 
 
@@ -111,14 +109,15 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
   .grid-container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: 
-  "left"
-  "right";
-}
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "left"
+    "right";
+  }
+
   .leftside {
     grid-area: left;
     position: relative;
@@ -130,6 +129,5 @@ body {
     grid-column: 1;
     grid-row-start: 3;
     margin-left: 0;
-    
   }
 }

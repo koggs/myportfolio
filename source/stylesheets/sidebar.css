@@ -1,33 +1,71 @@
-.nav {
-  display: block;
+.sidebar {
+  width: 40px;
   height: 40px;
-  width: 100%;
-  background: url(../images/burger_icon.png) no-repeat 98% center;
-  background-color: #ffffff;
-  cursor: pointer;
+  position: fixed;
+  z-index: 10; 
+  top: 3px;
+  right: 3px; 
 }
 
 .sidebar nav ul {
   overflow: hidden;
-  /* background: #d14141; */
-  height: 0;
+  height: 0;  
 }
 
 .sidebar nav ul.open {
   height: auto;
+  float: right;
+  height: 300px;
+  width: 520px;
+  background-color: #828081;
+  padding-top: 100px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .sidebar nav ul li {
   float: none;
-  text-align: left;
+  text-align: center;
   width: 100%;
   margin: 0;
 }
 
 .sidebar nav ul li a {
-  color: black;
   padding: 10px;
-  /* border-bottom: 1px solid gray; */
   display: block;
   margin: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.line {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: black;
+  border-radius: 10px;
+  transition: all cubic-bezier(0.21, 0.16, 0.28, 1.55) 0.3s;
+}
+
+.line01 {
+  top: 19%;
+}
+
+.line02 {
+  top: 49%;
+}
+
+.line03 {
+  top: 79%
+}
+
+.nav.open .line01 {
+  transform: rotate(45deg);
+  top: 49%;
+}
+
+.nav.open .line02, .nav.open .line03 {
+  transform: rotate(-45deg);
+  top: 49%;
 }

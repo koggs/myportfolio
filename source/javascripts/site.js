@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   nav__icon.addEventListener('click', event => {
     ul.classList.toggle('open');
+    nav__icon.classList.toggle('open');
   })
 
 })
