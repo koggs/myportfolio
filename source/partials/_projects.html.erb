@@ -1,15 +1,17 @@
 <h1>My Projects</h1>
 
 <div class="project__cards">
-	<% data.projects.each_with_index do |project, index| %>
-    <div class="column" id="card<%= index + 1 %>">
-      <figure class="hover effect-13">
-        <div class="hover-image" style="background-image: url(<%= project[:image] %>)"></div>
-        <h2 class="hover-title"><%= project[:name] %></h2>
-        <figcaption class="hover-caption">
-            <p><%= project[:description] %></p>
-        </figcaption>
-      </figure>
-    </div>
+    <% data.projects.each_with_index do |project, index| %>
+    <a href="<%= project[:link] %>">
+      <div class="column" id="card<%= index + 1 %>">
+        <figure class="hover effect-13">
+          <div class="hover-image" style="background-image: url(<%= project[:image] %>)"></div>
+          <h2 class="hover-title"><%= project[:name] %></h2>
+          <figcaption class="hover-caption">
+              <p><%= project[:description] %></p>
+          </figcaption>
+        </figure>
+      </div>
+    </a>
   <% end %>
 </div>
